@@ -1,0 +1,34 @@
+# See LICENSE folder for this sample’s licensing information.
+# For Umi
+# Apple sample code gitignore configuration.
+
+# MAC files
+.DS_Store
+
+# Xcode
+#
+*.pbxuser
+!default.pbxuser
+xcuserdata
+*.xccheckout
+DerivedData
+*.ipa
+*.xcuserstate
+*dSYM.zip
+
+# fastlane specific
+*/fastlane/report.xml
+*/fastlane/metadata
+*/.env
+
+# deliver temporary files
+*/fastlane/Preview.html
+
+# snapshot
+*/fastlane/screenshots
+*/fastlane/SnapshotDerivedData
+*/fastlane/screenshots*
+
+# scan temporary files
+*/fastlane/test_output
+*/culprits.txt
