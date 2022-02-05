@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500AA4F226865E310033011F /* TempoComposableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500AA4F126865E310033011F /* TempoComposableProtocols.swift */; };
+		5B0F2EF51D66280A00AA252C /* Tempo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0F2EF31D66280A00AA252C /* Tempo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B259CAC1D662DF8001D755F /* SinglePixelLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CAB1D662DF8001D755F /* SinglePixelLine.swift */; };
+		5B259CAE1D662E43001D755F /* UIImage+HarmonyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CAD1D662E43001D755F /* UIImage+HarmonyKit.swift */; };
+		5B259CB01D662E77001D755F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CAF1D662E77001D755F /* Grid.swift */; };
+		5B259CB21D662E9B001D755F /* GridProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CB11D662E9B001D755F /* GridProjection.swift */; };
+		5B259CB41D662EDC001D755F /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CB31D662EDC001D755F /* UICollectionView+Reusable.swift */; };
+		5B259CB61D662FBA001D755F /* HarmonyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CB51D662FBA001D755F /* HarmonyScreen.swift */; };
+		5B259CB81D662FDB001D755F /* HarmonyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CB71D662FDB001D755F /* HarmonyColor.swift */; };
+		5B259CBA1D663008001D755F /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CB91D663008001D755F /* UIView+Autolayout.swift */; };
+		5B259CBC1D663027001D755F /* SequenceType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B259CBB1D663027001D755F /* SequenceType+Extensions.swift */; };
+		5B518D891F100E50005C013B /* HarmonyLayoutSectionAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B518D881F100E50005C013B /* HarmonyLayoutSectionAttributes.swift */; };
+		5B518D8B1F100E89005C013B /* TempoViewStateSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B518D8A1F100E89005C013B /* TempoViewStateSection.swift */; };
+		5B518D8D1F100F2D005C013B /* SupplementaryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B518D8C1F100F2D005C013B /* SupplementaryComponent.swift */; };
+		5B518D8F1F100F8C005C013B /* TempoEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B518D8E1F100F8C005C013B /* TempoEvent.swift */; };
+		5B518D911F100FEC005C013B /* ReusableCollectionViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B518D901F100FEC005C013B /* ReusableCollectionViewContainer.swift */; };
+		5BBBB0691D662C2300F5D57B /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0681D662C2300F5D57B /* Dispatch.swift */; };
+		5BBBB0771D662C3B00F5D57B /* CollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB06A1D662C3B00F5D57B /* CollectionViewAdapter.swift */; };
+		5BBBB0781D662C3B00F5D57B /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB06B1D662C3B00F5D57B /* Component.swift */; };
+		5BBBB0791D662C3B00F5D57B /* ComponentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB06C1D662C3B00F5D57B /* ComponentProvider.swift */; };
+		5BBBB07A1D662C3B00F5D57B /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB06D1D662C3B00F5D57B /* Dispatcher.swift */; };
+		5BBBB07B1D662C3B00F5D57B /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB06E1D662C3B00F5D57B /* EventType.swift */; };
+		5BBBB07C1D662C3B00F5D57B /* HarmonyLayoutComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB06F1D662C3B00F5D57B /* HarmonyLayoutComponent.swift */; };
+		5BBBB07D1D662C3B00F5D57B /* SectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0701D662C3B00F5D57B /* SectionPresenter.swift */; };
+		5BBBB07E1D662C3B00F5D57B /* TempoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0711D662C3B00F5D57B /* TempoCoordinator.swift */; };
+		5BBBB07F1D662C3B00F5D57B /* TempoFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0721D662C3B00F5D57B /* TempoFocus.swift */; };
+		5BBBB0811D662C3B00F5D57B /* TempoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0741D662C3B00F5D57B /* TempoPresenter.swift */; };
+		5BBBB0821D662C3B00F5D57B /* TempoViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0751D662C3B00F5D57B /* TempoViewState.swift */; };
+		5BBBB0831D662C3B00F5D57B /* TempoViewStateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0761D662C3B00F5D57B /* TempoViewStateItem.swift */; };
+		5BBBB0941D662CC000F5D57B /* CollectionViewAdapter+HarmonyLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0851D662CC000F5D57B /* CollectionViewAdapter+HarmonyLayoutDelegate.swift */; };
+		5BBBB0971D662CC000F5D57B /* HarmonyCellAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0881D662CC000F5D57B /* HarmonyCellAttributes.swift */; };
+		5BBBB0981D662CC000F5D57B /* HarmonyCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0891D662CC000F5D57B /* HarmonyCellBase.swift */; };
+		5BBBB09A1D662CC000F5D57B /* HarmonyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB08B1D662CC000F5D57B /* HarmonyLayout.swift */; };
+		5BBBB09B1D662CC000F5D57B /* HarmonyLayoutCellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB08C1D662CC000F5D57B /* HarmonyLayoutCellGenerator.swift */; };
+		5BBBB09C1D662CC000F5D57B /* HarmonyLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB08D1D662CC000F5D57B /* HarmonyLayoutDelegate.swift */; };
+		5BBBB09D1D662CC000F5D57B /* HarmonyLayoutMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB08E1D662CC000F5D57B /* HarmonyLayoutMargins.swift */; };
+		5BBBB09F1D662CC000F5D57B /* HarmonyLayoutTileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0901D662CC000F5D57B /* HarmonyLayoutTileGenerator.swift */; };
+		5BBBB0A01D662CC000F5D57B /* HarmonyTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0911D662CC000F5D57B /* HarmonyTestCell.swift */; };
+		5BBBB0A21D662CC000F5D57B /* UICollectionView+HarmonyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBB0931D662CC000F5D57B /* UICollectionView+HarmonyLayout.swift */; };
+		5BFB00A81D662B6100AAB3D0 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB00A71D662B6100AAB3D0 /* Reusable.swift */; };
+		5BFB00AA1D662B7500AAB3D0 /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB00A91D662B7500AAB3D0 /* Accessibility.swift */; };
+		5BFB00AC1D662B7C00AAB3D0 /* NibLoadedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB00AB1D662B7C00AAB3D0 /* NibLoadedType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		500AA4F126865E310033011F /* TempoComposableProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoComposableProtocols.swift; sourceTree = "<group>"; };
+		5B0F2EF01D66280A00AA252C /* Tempo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tempo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0F2EF31D66280A00AA252C /* Tempo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tempo.h; sourceTree = "<group>"; };
+		5B0F2EF41D66280A00AA252C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B259CAB1D662DF8001D755F /* SinglePixelLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePixelLine.swift; sourceTree = "<group>"; };
+		5B259CAD1D662E43001D755F /* UIImage+HarmonyKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+HarmonyKit.swift"; sourceTree = "<group>"; };
+		5B259CAF1D662E77001D755F /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		5B259CB11D662E9B001D755F /* GridProjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridProjection.swift; sourceTree = "<group>"; };
+		5B259CB31D662EDC001D755F /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		5B259CB51D662FBA001D755F /* HarmonyScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyScreen.swift; sourceTree = "<group>"; };
+		5B259CB71D662FDB001D755F /* HarmonyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyColor.swift; sourceTree = "<group>"; };
+		5B259CB91D663008001D755F /* UIView+Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		5B259CBB1D663027001D755F /* SequenceType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Extensions.swift"; sourceTree = "<group>"; };
+		5B518D881F100E50005C013B /* HarmonyLayoutSectionAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayoutSectionAttributes.swift; sourceTree = "<group>"; };
+		5B518D8A1F100E89005C013B /* TempoViewStateSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoViewStateSection.swift; sourceTree = "<group>"; };
+		5B518D8C1F100F2D005C013B /* SupplementaryComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryComponent.swift; sourceTree = "<group>"; };
+		5B518D8E1F100F8C005C013B /* TempoEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoEvent.swift; sourceTree = "<group>"; };
+		5B518D901F100FEC005C013B /* ReusableCollectionViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCollectionViewContainer.swift; sourceTree = "<group>"; };
+		5BBBB0681D662C2300F5D57B /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		5BBBB06A1D662C3B00F5D57B /* CollectionViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewAdapter.swift; sourceTree = "<group>"; };
+		5BBBB06B1D662C3B00F5D57B /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		5BBBB06C1D662C3B00F5D57B /* ComponentProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentProvider.swift; sourceTree = "<group>"; };
+		5BBBB06D1D662C3B00F5D57B /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		5BBBB06E1D662C3B00F5D57B /* EventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		5BBBB06F1D662C3B00F5D57B /* HarmonyLayoutComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayoutComponent.swift; sourceTree = "<group>"; };
+		5BBBB0701D662C3B00F5D57B /* SectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionPresenter.swift; sourceTree = "<group>"; };
+		5BBBB0711D662C3B00F5D57B /* TempoCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoCoordinator.swift; sourceTree = "<group>"; };
+		5BBBB0721D662C3B00F5D57B /* TempoFocus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoFocus.swift; sourceTree = "<group>"; };
+		5BBBB0741D662C3B00F5D57B /* TempoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoPresenter.swift; sourceTree = "<group>"; };
+		5BBBB0751D662C3B00F5D57B /* TempoViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoViewState.swift; sourceTree = "<group>"; };
+		5BBBB0761D662C3B00F5D57B /* TempoViewStateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoViewStateItem.swift; sourceTree = "<group>"; };
+		5BBBB0851D662CC000F5D57B /* CollectionViewAdapter+HarmonyLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionViewAdapter+HarmonyLayoutDelegate.swift"; sourceTree = "<group>"; };
+		5BBBB0881D662CC000F5D57B /* HarmonyCellAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyCellAttributes.swift; sourceTree = "<group>"; };
+		5BBBB0891D662CC000F5D57B /* HarmonyCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyCellBase.swift; sourceTree = "<group>"; };
+		5BBBB08B1D662CC000F5D57B /* HarmonyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayout.swift; sourceTree = "<group>"; };
+		5BBBB08C1D662CC000F5D57B /* HarmonyLayoutCellGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayoutCellGenerator.swift; sourceTree = "<group>"; };
+		5BBBB08D1D662CC000F5D57B /* HarmonyLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayoutDelegate.swift; sourceTree = "<group>"; };
+		5BBBB08E1D662CC000F5D57B /* HarmonyLayoutMargins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayoutMargins.swift; sourceTree = "<group>"; };
+		5BBBB0901D662CC000F5D57B /* HarmonyLayoutTileGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyLayoutTileGenerator.swift; sourceTree = "<group>"; };
+		5BBBB0911D662CC000F5D57B /* HarmonyTestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarmonyTestCell.swift; sourceTree = "<group>"; };
+		5BBBB0931D662CC000F5D57B /* UICollectionView+HarmonyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+HarmonyLayout.swift"; sourceTree = "<group>"; };
+		5BDE2D981D6788360063D284 /* Tempo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tempo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5BFB00A71D662B6100AAB3D0 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		5BFB00A91D662B7500AAB3D0 /* Accessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
+		5BFB00AB1D662B7C00AAB3D0 /* NibLoadedType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadedType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B0F2EEC1D66280A00AA252C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0F2EE61D66280A00AA252C = {
+			isa = PBXGroup;
+			children = (
+				5BDE2D981D6788360063D284 /* Tempo.playground */,
+				5B0F2EF21D66280A00AA252C /* Tempo */,
+				5B0F2EF11D66280A00AA252C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B0F2EF11D66280A00AA252C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0F2EF01D66280A00AA252C /* Tempo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0F2EF21D66280A00AA252C /* Tempo */ = {
+			isa = PBXGroup;
+			children = (
+				5B259CBB1D663027001D755F /* SequenceType+Extensions.swift */,
+				5BBBB0841D662C8300F5D57B /* HarmonyLayout */,
+				5BFB00A61D662B5000AAB3D0 /* UIKit */,
+				5BFB00891D662A1B00AAB3D0 /* Core */,
+				5B0F2EF31D66280A00AA252C /* Tempo.h */,
+				5B0F2EF41D66280A00AA252C /* Info.plist */,
+			);
+			path = Tempo;
+			sourceTree = "<group>";
+		};
+		5BBBB0841D662C8300F5D57B /* HarmonyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5B259CAF1D662E77001D755F /* Grid.swift */,
+				5B259CB11D662E9B001D755F /* GridProjection.swift */,
+				5BBBB06F1D662C3B00F5D57B /* HarmonyLayoutComponent.swift */,
+				5BBBB0851D662CC000F5D57B /* CollectionViewAdapter+HarmonyLayoutDelegate.swift */,
+				5BBBB0881D662CC000F5D57B /* HarmonyCellAttributes.swift */,
+				5BBBB0891D662CC000F5D57B /* HarmonyCellBase.swift */,
+				5BBBB08B1D662CC000F5D57B /* HarmonyLayout.swift */,
+				5BBBB08C1D662CC000F5D57B /* HarmonyLayoutCellGenerator.swift */,
+				5BBBB08D1D662CC000F5D57B /* HarmonyLayoutDelegate.swift */,
+				5BBBB08E1D662CC000F5D57B /* HarmonyLayoutMargins.swift */,
+				5B518D881F100E50005C013B /* HarmonyLayoutSectionAttributes.swift */,
+				5BBBB0901D662CC000F5D57B /* HarmonyLayoutTileGenerator.swift */,
+				5BBBB0911D662CC000F5D57B /* HarmonyTestCell.swift */,
+				5BBBB0931D662CC000F5D57B /* UICollectionView+HarmonyLayout.swift */,
+			);
+			path = HarmonyLayout;
+			sourceTree = "<group>";
+		};
+		5BFB00891D662A1B00AAB3D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5BBBB06A1D662C3B00F5D57B /* CollectionViewAdapter.swift */,
+				5BBBB06B1D662C3B00F5D57B /* Component.swift */,
+				5BBBB06C1D662C3B00F5D57B /* ComponentProvider.swift */,
+				5BBBB06D1D662C3B00F5D57B /* Dispatcher.swift */,
+				5BBBB06E1D662C3B00F5D57B /* EventType.swift */,
+				5BBBB0701D662C3B00F5D57B /* SectionPresenter.swift */,
+				500AA4F126865E310033011F /* TempoComposableProtocols.swift */,
+				5BBBB0711D662C3B00F5D57B /* TempoCoordinator.swift */,
+				5B518D8E1F100F8C005C013B /* TempoEvent.swift */,
+				5BBBB0721D662C3B00F5D57B /* TempoFocus.swift */,
+				5BBBB0741D662C3B00F5D57B /* TempoPresenter.swift */,
+				5BBBB0751D662C3B00F5D57B /* TempoViewState.swift */,
+				5B518D8A1F100E89005C013B /* TempoViewStateSection.swift */,
+				5BBBB0761D662C3B00F5D57B /* TempoViewStateItem.swift */,
+				5B518D8C1F100F2D005C013B /* SupplementaryComponent.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5BFB00A61D662B5000AAB3D0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B259CB71D662FDB001D755F /* HarmonyColor.swift */,
+				5B259CB51D662FBA001D755F /* HarmonyScreen.swift */,
+				5B259CB31D662EDC001D755F /* UICollectionView+Reusable.swift */,
+				5B259CAD1D662E43001D755F /* UIImage+HarmonyKit.swift */,
+				5B259CAB1D662DF8001D755F /* SinglePixelLine.swift */,
+				5BBBB0681D662C2300F5D57B /* Dispatch.swift */,
+				5BFB00A91D662B7500AAB3D0 /* Accessibility.swift */,
+				5BFB00A71D662B6100AAB3D0 /* Reusable.swift */,
+				5B518D901F100FEC005C013B /* ReusableCollectionViewContainer.swift */,
+				5BFB00AB1D662B7C00AAB3D0 /* NibLoadedType.swift */,
+				5B259CB91D663008001D755F /* UIView+Autolayout.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B0F2EED1D66280A00AA252C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0F2EF51D66280A00AA252C /* Tempo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B0F2EEF1D66280A00AA252C /* Tempo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0F2EF81D66280A00AA252C /* Build configuration list for PBXNativeTarget "Tempo" */;
+			buildPhases = (
+				5B0F2EEB1D66280A00AA252C /* Sources */,
+				5B0F2EEC1D66280A00AA252C /* Frameworks */,
+				5B0F2EED1D66280A00AA252C /* Headers */,
+				5B0F2EEE1D66280A00AA252C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tempo;
+			productName = Tempo;
+			productReference = 5B0F2EF01D66280A00AA252C /* Tempo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0F2EE71D66280A00AA252C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = Target;
+				TargetAttributes = {
+					5B0F2EEF1D66280A00AA252C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D9LCY75JDG;
+						DevelopmentTeamName = Target;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B0F2EEA1D66280A00AA252C /* Build configuration list for PBXProject "Tempo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5B0F2EE61D66280A00AA252C;
+			productRefGroup = 5B0F2EF11D66280A00AA252C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0F2EEF1D66280A00AA252C /* Tempo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0F2EEE1D66280A00AA252C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0F2EEB1D66280A00AA252C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B518D8B1F100E89005C013B /* TempoViewStateSection.swift in Sources */,
+				5BBBB0A01D662CC000F5D57B /* HarmonyTestCell.swift in Sources */,
+				5B259CBA1D663008001D755F /* UIView+Autolayout.swift in Sources */,
+				5BBBB0821D662C3B00F5D57B /* TempoViewState.swift in Sources */,
+				5BBBB07C1D662C3B00F5D57B /* HarmonyLayoutComponent.swift in Sources */,
+				5B518D911F100FEC005C013B /* ReusableCollectionViewContainer.swift in Sources */,
+				5BFB00AA1D662B7500AAB3D0 /* Accessibility.swift in Sources */,
+				5BBBB0971D662CC000F5D57B /* HarmonyCellAttributes.swift in Sources */,
+				5B259CAC1D662DF8001D755F /* SinglePixelLine.swift in Sources */,
+				5B259CBC1D663027001D755F /* SequenceType+Extensions.swift in Sources */,
+				5BBBB09A1D662CC000F5D57B /* HarmonyLayout.swift in Sources */,
+				5BBBB0781D662C3B00F5D57B /* Component.swift in Sources */,
+				5B518D891F100E50005C013B /* HarmonyLayoutSectionAttributes.swift in Sources */,
+				5BBBB0811D662C3B00F5D57B /* TempoPresenter.swift in Sources */,
+				5BBBB09F1D662CC000F5D57B /* HarmonyLayoutTileGenerator.swift in Sources */,
+				5BBBB07A1D662C3B00F5D57B /* Dispatcher.swift in Sources */,
+				5B518D8D1F100F2D005C013B /* SupplementaryComponent.swift in Sources */,
+				5B259CB81D662FDB001D755F /* HarmonyColor.swift in Sources */,
+				5B518D8F1F100F8C005C013B /* TempoEvent.swift in Sources */,
+				500AA4F226865E310033011F /* TempoComposableProtocols.swift in Sources */,
+				5BBBB07D1D662C3B00F5D57B /* SectionPresenter.swift in Sources */,
+				5BBBB0691D662C2300F5D57B /* Dispatch.swift in Sources */,
+				5BBBB0981D662CC000F5D57B /* HarmonyCellBase.swift in Sources */,
+				5B259CB01D662E77001D755F /* Grid.swift in Sources */,
+				5BBBB0A21D662CC000F5D57B /* UICollectionView+HarmonyLayout.swift in Sources */,
+				5B259CB61D662FBA001D755F /* HarmonyScreen.swift in Sources */,
+				5B259CB21D662E9B001D755F /* GridProjection.swift in Sources */,
+				5BBBB09D1D662CC000F5D57B /* HarmonyLayoutMargins.swift in Sources */,
+				5BBBB07F1D662C3B00F5D57B /* TempoFocus.swift in Sources */,
+				5BBBB07E1D662C3B00F5D57B /* TempoCoordinator.swift in Sources */,
+				5BBBB07B1D662C3B00F5D57B /* EventType.swift in Sources */,
+				5BFB00AC1D662B7C00AAB3D0 /* NibLoadedType.swift in Sources */,
+				5B259CB41D662EDC001D755F /* UICollectionView+Reusable.swift in Sources */,
+				5BBBB0791D662C3B00F5D57B /* ComponentProvider.swift in Sources */,
+				5BFB00A81D662B6100AAB3D0 /* Reusable.swift in Sources */,
+				5BBBB0771D662C3B00F5D57B /* CollectionViewAdapter.swift in Sources */,
+				5BBBB09C1D662CC000F5D57B /* HarmonyLayoutDelegate.swift in Sources */,
+				5BBBB09B1D662CC000F5D57B /* HarmonyLayoutCellGenerator.swift in Sources */,
+				5BBBB0941D662CC000F5D57B /* CollectionViewAdapter+HarmonyLayoutDelegate.swift in Sources */,
+				5BBBB0831D662C3B00F5D57B /* TempoViewStateItem.swift in Sources */,
+				5B259CAE1D662E43001D755F /* UIImage+HarmonyKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B0F2EF61D66280A00AA252C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B0F2EF71D66280A00AA252C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B0F2EF91D66280A00AA252C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Tempo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.target.Tempo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B0F2EFA1D66280A00AA252C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Tempo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.target.Tempo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0F2EEA1D66280A00AA252C /* Build configuration list for PBXProject "Tempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0F2EF61D66280A00AA252C /* Debug */,
+				5B0F2EF71D66280A00AA252C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0F2EF81D66280A00AA252C /* Build configuration list for PBXNativeTarget "Tempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0F2EF91D66280A00AA252C /* Debug */,
+				5B0F2EFA1D66280A00AA252C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0F2EE71D66280A00AA252C /* Project object */;
+}
